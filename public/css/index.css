@@ -1,1 +1,70 @@
-
+.btn:hover {
+    color: red;
+    background-color: yellow;
+  }
+.title:hover {
+    background-color: green;
+}  
+.link:visited {
+    color: yellow;
+  }
+#sidebar a:link {
+    color: red;
+}
+.btn:active {
+    background-color: blue;
+}
+.btn:focus {
+    color: orange;
+    background-color: orange;
+}  
+#target:target {
+    color: white;
+    background-color: green;
+}
+#checkbox:checked+#target {
+    color: white;
+    background-color: blue;
+}
+p:lang(uk) {
+    color: blue;
+}
+.form-control:enabled {
+    color: red;
+    background-color: yellow;
+}
+.form-control:disabled {
+    background-color: yellow;
+}
+input:read-write {
+    background-color: yellow;
+}
+input:read-only {
+    background-color: yellow;
+}
+input:valid {
+    background-color: green;
+}  
+input:invalid {
+    background-color: red;
+}
+textarea:optional {
+    background-color: red;
+}
+input:out-of-range {
+    color: red;
+}
+input:in-range {
+    color: red;
+}
+:placeholder:placeholder-shown {
+    color: red;
+}
+.btn-group:focus-within button {
+    color: white;
+    background-color: yellow;
+}
+.lesson-four-task-twenty input:invalid {
+    background-color: red;
+}
+  
